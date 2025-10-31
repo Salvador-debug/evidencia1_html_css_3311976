@@ -12,19 +12,45 @@
 ---
 <label>{etiqueta}</label>
 <div>
+    <div id="cedula">
+        <input
+            type="radio"
+            name="rbg"
+            id="radio1"
+    /> 
+    <strong>CC</strong>
+</div>
+<br/>
+<div id="tarjeta">
     <input
             type="radio"
             name="rbg"
-            id="radio1"
-    /> CC
-        <input
-            type="radio"
-            name="rbg"
-            id="radio1"
-    /> TI
-        <input
-            type="radio"
-            name="rbg"
-            id="radio1"
-    /> CE
+            id="radio2"
+    /> 
+    <strong>TI </strong>
 </div>
+<br/>
+<div id="extrangeria">
+        <input
+        type="radio"
+        name="rbg"
+        id="radio3"
+    />
+    <strong>CE</strong>
+</div>
+
+</div>
+<style>
+#cedula{
+    background-color: rgb(179, 127, 228);
+    display: inline;
+}
+#tarjeta{
+    background-color: rgb(144, 195, 241);
+    display: inline;
+}
+#extrangeria{
+    background-color: rgb(129, 211, 200);
+    display: inline;
+}
+</style>
