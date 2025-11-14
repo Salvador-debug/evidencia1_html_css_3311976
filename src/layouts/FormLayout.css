@@ -1,0 +1,22 @@
+.form{
+        display:block;
+        background-color: lightgrey;
+        width: 400px;
+        border:2px solid black;
+        margin:20px auto;
+        border-radius: 10px;
+}
+.titulo{
+    background-color: beige;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    margin-bottom: 50px;
+}
+.boton-envio{
+    display: inline;
+    margin-left: 270px;
+    margin-bottom: 20px;
+    margin-top: 20px
+} 

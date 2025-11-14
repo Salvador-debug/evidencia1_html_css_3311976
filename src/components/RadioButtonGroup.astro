@@ -10,47 +10,74 @@
     //Astro.props = a los valores desde el control
     const etiqueta = Astro.props.etiqueta;
 ---
+
 <label>{etiqueta}</label>
-<div>
+<div class="rgb">
     <div id="cedula">
-        <input
+        <input class="radio-bnt"
             type="radio"
             name="rbg"
             id="radio1"
     /> 
-    <strong>CC</strong>
+    CC
 </div>
-<br/>
 <div id="tarjeta">
-    <input
+    <input class="radio-bnt"
             type="radio"
             name="rbg"
             id="radio2"
     /> 
-    <strong>TI </strong>
+    TI
 </div>
-<br/>
-<div id="extrangeria">
-        <input
+
+<div  id="extrangeria">
+        <input class="radio-bnt"
         type="radio"
         name="rbg"
         id="radio3"
     />
-    <strong>CE</strong>
+    CE
 </div>
 
 </div>
 <style>
-#cedula{
-    background-color: rgb(179, 127, 228);
-    display: inline;
-}
-#tarjeta{
-    background-color: rgb(144, 195, 241);
-    display: inline;
-}
-#extrangeria{
-    background-color: rgb(129, 211, 200);
-    display: inline;
-}
+    .rgb{
+        background-color: rgb(255, 255, 255);
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+        margin:10px 0px 10px 20px;
+        width: 88%;
+    }
+
+    #cedula .radio-bnt{
+        display:inline-block;
+        width: 10px;
+        height: 10px;
+    }
+    #cedula{
+        font-family: Arial, Helvetica, sans-serif;
+        margin:20px 10px;
+    }
+
+    #tarjeta .radio-bnt{
+        display:inline-block;
+        width: 10px;
+        height: 10px;
+    }
+    #tarjeta{
+        font-family: Arial, Helvetica, sans-serif;
+        margin:20px 10px;
+    }
+    #extrangeria .radio-bnt{
+        display:inline-block;
+        width: 10px;
+        height: 10px;
+    }
+      #extrangeria{
+        font-family: Arial, Helvetica, sans-serif;
+        margin:20px 10px;
+    }
+
 </style>

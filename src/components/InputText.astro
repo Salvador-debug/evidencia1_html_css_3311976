@@ -1,4 +1,5 @@
 ---
+import "./InputText.css";
 //Definimos las propiedades que pueden recibir el componente
     interface Props {
         etiqueta: string;
@@ -23,18 +24,5 @@ ES ETIQUETA CERRADA
 <label>{ etiqueta }</label>
 <input type="text" />
 <style>
-    /*solo se puede poner aqui sintaxis css
-    estilos para el input text
-    selector de etiqueta:
-    estilos aplicables a toda etiqueta  señalada por el selector */
-input[type="text"]{
-        background-color:rgb(124, 175, 252);
-        width: 400px;
-        height: 20px;
-        border-color:rgb(30, 6, 250);
-        border-width: 2px;
-        border-style:groove;
-        border-radius: 5px;
 
-    }
 </style>
